@@ -1,0 +1,11 @@
+.list-file {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &__link {
+        color: rgb(0, 57, 172);
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

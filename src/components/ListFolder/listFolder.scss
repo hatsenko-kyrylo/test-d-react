@@ -1,0 +1,17 @@
+.list-folder {
+    &__header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        p:hover {
+            text-decoration: underline;
+        }
+    }
+    &__list {
+        margin-left: 50px;
+        &-empty {
+            color: #ffb31a;
+        }
+    }
+}
